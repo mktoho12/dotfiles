@@ -1,6 +1,6 @@
 if status is-interactive
   # Commands to run in interactive sessions can go here
-  eval (/opt/homebrew/bin/brew shellenv)
+  eval (brew shellenv)
   starship init fish | source
 end
 
@@ -14,7 +14,13 @@ alias be="bundle exec"
 alias gs="git switch"
 alias config='/usr/bin/git --git-dir=/Users/mktoho/.cfg/ --work-tree=/Users/mktoho'
 
-source /opt/homebrew/opt/asdf/libexec/asdf.fish
+if test -f /opt/homebrew/opt/asdf/libexec/asdf.fish
+  source /opt/homebrew/opt/asdf/libexec/asdf.fish
+end
+
+if test -f /usr/local/opt/asdf/libexec/asdf.fish
+  source /usr/local/opt/asdf/libexec/asdf.fish
+end
 
 # pnpm
 set -gx PNPM_HOME "/Users/mktoho/Library/pnpm"
