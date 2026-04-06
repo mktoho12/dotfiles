@@ -1,0 +1,19 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/mktoho/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "claude-code-harness@claude-code-harness-marketplace": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-code-harness-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "Chachamaru127/claude-code-harness"
+      }
+    }
+  },
+  "alwaysThinkingEnabled": true
+}
