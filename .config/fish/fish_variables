@@ -1,8 +1,13 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --path PATH:/Users/mktoho/Downloads/google\x2dcloud\x2dsdk/bin\x1e/Users/mktoho/\x2ebun/bin\x1e/Users/mktoho/Library/Android/sdk/platform\x2dtools\x1e/Users/mktoho/\x2easdf/shims\x1e/opt/homebrew/opt/asdf/libexec/bin\x1e/Users/mktoho/\x2eebcli\x2dvirtual\x2denv/executables\x1e/Users/mktoho/\x2efig/bin\x1e/Users/mktoho/\x2ecargo/bin\x1e/Users/mktoho/\x2elocal/bin\x1e/Users/mktoho/Library/pnpm\x1e/opt/homebrew/bin\x1e/opt/homebrew/sbin\x1e/Users/mktoho/\x2esdkman/candidates/java/current/bin\x1e/usr/local/bin\x1e/System/Cryptexes/App/usr/bin\x1e/usr/bin\x1e/bin\x1e/usr/sbin\x1e/sbin\x1e/var/run/com\x2eapple\x2esecurity\x2ecryptexd/codex\x2esystem/bootstrap/usr/local/bin\x1e/var/run/com\x2eapple\x2esecurity\x2ecryptexd/codex\x2esystem/bootstrap/usr/bin\x1e/var/run/com\x2eapple\x2esecurity\x2ecryptexd/codex\x2esystem/bootstrap/usr/appleinternal/bin\x1e/Library/Apple/usr/bin\x1e/Applications/Wireshark\x2eapp/Contents/MacOS
 SETUVAR --export PYENV_ROOT:/Users/mktoho/\x2epyenv
 SETUVAR --export SHELL:/opt/homebrew/bin/fish
 SETUVAR __fish_initialized:3400
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ereitzig/sdkman\x2dfor\x2dfish\x40v2\x2e0\x2e0
+SETUVAR _fisher_reitzig_2F_sdkman_2D_for_2D_fish_40_v2_2E_30_2E_30__files:\x7e/\x2econfig/fish/functions/sdk\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/sdk\x2efish\x1e\x7e/\x2econfig/fish/completions/sdk\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -31,4 +36,4 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR --export fish_user_paths:/Users/mktoho/\x2eebcli\x2dvirtual\x2denv/executables\x1e/Users/mktoho/\x2epyenv/bin\x1e/Users/mktoho/\x2enodenv/bin\x1e/Users/mktoho/\x2efig/bin\x1e/Users/mktoho/\x2ecargo/bin\x1e/Users/mktoho/\x2elocal/bin
+SETUVAR --export fish_user_paths:/Users/mktoho/Library/Android/sdk/platform\x2dtools\x1e/Users/mktoho/\x2easdf/shims\x1e/opt/homebrew/opt/asdf/libexec/bin\x1e/Users/mktoho/\x2eebcli\x2dvirtual\x2denv/executables\x1e/Users/mktoho/\x2ecargo/bin\x1e/Users/mktoho/\x2elocal/bin\x1e/Users/mktoho/\x2erye/shims
